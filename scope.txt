@@ -57,18 +57,32 @@ https://github.com/markaldo/package-builder
 ✅ Digital checklists (photos before/after), confirm button to close order/disbute if there is an issue.
 ✅ Rating/feedback
 
-10. Contact Us
+10. Support & Help
 ✅ Live chat support (WhatsApp Business API)
-✅ Intergration of 'tawk.to' agent support
+✅ Contact Us page (phone, email, WhatsApp)
+✅ Live chat widget (Tawk.to free)
 ✅ Microsoft contact form submission
+✅ FAQ/Questions page
+✅ Report Bug form
+✅ Service areas map
 
 11. Compliance & Legal (just put dummy data - 2 lined statements on each of these pages)
-✅ Terms & Conditions page
+✅ Terms & Conditions (Terms of Service)
 ✅ Privacy Policy (GDPR compliant)
 ✅ Regulations page (Polish cleaning laws)
 ✅ Insurance information
 ✅ Cancellation policy
 ✅ Refund policy
+✅ RODO/GDPR compliance page
+✅ Company information (NIP, REGON)
+✅ Contact details (address, hours)
+
+12. Settings & Preferences
+✅ Language toggle (PL/EN)
+✅ Currency display (PLN/€)
+✅ Notification preferences (email/push/SMS)
+✅ Dark/Light mode
+✅ Save preferences (localStorage)
 
 Things to add after the main features (later phase
 ✅ PDF quote download
@@ -87,90 +101,45 @@ Things to add after the main features (later phase
 ✅ Route optimization (Google Maps API)
 ✅ Time tracking (check-in/out) when cleaning is done
 
-
-
-
-12. Settings & Preferences
-text
-✅ Language toggle (PL/EN)
-✅ Currency display (PLN/€)
-✅ Notification preferences (email/push/SMS)
-✅ Dark/Light mode
-✅ Save preferences (localStorage)
-✅ Profile photo/avatar
-13. Support & Help
-text
-✅ FAQ/Questions page
-✅ Report Bug form
-✅ Contact Us page (phone, email, WhatsApp)
-✅ Live chat widget (Tawk.to free)
-✅ Service areas map
-✅ Pricing transparency page
-14. Legal Pages (Required in Poland)
-text
-✅ Regulamin (Terms of Service)
-✅ Polityka Prywatności (Privacy Policy)
-✅ RODO/GDPR compliance page
-✅ Company information (NIP, REGON)
-✅ Contact details (address, hours)
 📱 MOBILE/PWA ENHANCEMENTS
-text
 ✅ Push notifications (order status)
 ✅ Offline calculator (Service Worker)
 ✅ Home screen installable
 ✅ Touch-optimized UI (60fps)
-✅ Voice search (service selection)
-✅ Biometric login (fingerprint)
-📊 BUSINESS INTELLIGENCE
-text
-✅ Revenue dashboard (daily/weekly/monthly)
-✅ Top services report
-✅ Customer retention analytics
-✅ Cleaner performance metrics
-✅ Cancellation reasons tracking
-✅ Peak hours analysis
+
 🎨 UI/UX FEATURES
-text
 ✅ Loading states (skeleton screens)
 ✅ Error handling (friendly messages)
 ✅ Success animations (confetti on booking)
 ✅ Progress indicator (multi-step form)
 ✅ Auto-save form progress
 ✅ One-click WhatsApp booking
+
 🛡️ SECURITY & COMPLIANCE
-text
 ✅ SSL/HTTPS everywhere
 ✅ GDPR consent checkboxes
 ✅ Data encryption (customer info)
 ✅ Payment PCI compliance
 ✅ Rate limiting (API abuse protection)
 ✅ Audit logs (admin actions)
-🚀 PRIORITIZED ROADMAP (6 Weeks Total)
-text
-WEEK 1: MVP Launch
+
+🚀 PRIORITIZED ROADMAP (6 Phases Total)
+PHASE 1: MVP Launch
 ├── ✅ Package Builder + Quote Generator
 ├── ✅ Basic Booking + Payment
 └── ✅ PWA + Mobile Responsive
 
-WEEK 2: Customer Features
+PHASE 2: Customer Features
 ├── ✅ Profile + Order History
 ├── ✅ Notifications + Reviews
-└── ✅ Admin Dashboard (basic)
+└── ✅ Other neccessary basics
 
-WEEK 3: Operations
+PHASE 3: Operations
 ├── ✅ Recurring Bookings
-├── ✅ Cleaner Assignment
-└── ✅ Advanced Reporting
+├── ✅ Other features neccessary
+└── ✅ Advanced Bug Reporting
 
-MONTH 2: Scale
+PHASE 4: Scale
 ├── ✅ Marketing Features
 ├── ✅ B2B Corporate
 └── ✅ Multi-language Full Support
-📋 IMMEDIATE NEXT STEPS (This Week)
-text
-1. ✅ Add Order History page
-2. ✅ Profile/Settings page  
-3. ✅ FAQ + Contact Us pages
-4. ✅ Terms/Privacy pages (Polish legal req)
-5. ✅ Push notifications for order status
-6. ✅ Admin dashboard (orders table)
