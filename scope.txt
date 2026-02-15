@@ -4,6 +4,7 @@ Access the board using the google boards link below:
 https://docs.google.com/drawings/d/1WDoVr_dMnS4phNS5bamw66EnWI6O7TeATBu9lsfo-68/edit?usp=sharing
 Welcome page (Login/Guest) -> Dashboard -> Book a Service -> Payment -> Order Confirmation -> Invoice/Receipt Download 
                                   |-> Offers, Orders History, Order Details, Privacy & Policy, Regulations, Report Bug, FAQ or Contact Us
+✅ Mobile-responsive PWA
 
 1. Welcome page
 ✅ Swify
@@ -23,93 +24,72 @@ https://github.com/markaldo/package-builder
 ✅ Windows selector (+/- buttons) -> make sure the user has to select sizes like in the above calculator
 ✅ Extra rooms (kitchen, balcony, etc.), make sure the user enters sizes
 ✅ Online booking with calendar
+✅ Guest checkout (no account needed)
 
 4. Payment
 ✅ Payment integration (Stripe/Przelewy24) and blik
+✅ Invoice download (PDF)
 
 5. Order Confirmation
 ✅ Order confirmation (email + push)
 ✅ Order ID generation
 ✅ Order summary with breakdown
-✅ PDF quote download
 ✅ WhatsApp/Email quote sharing
 
 6. Offers page
 ✅ Real-time pricing updates
 ✅ Already made packages and offers
 
-3. Basic Customer Management
-text
+7. Account page
+✅ Basic Customer Management 
 ✅ Customer registration/login
 ✅ Guest checkout (no account needed)
-✅ Save package as "favorite"
-✅ Contact form submission
-🚀 PHASE 2 FEATURES (Week 2-3 - Revenue Generation)
-4. Customer Account Features
-text
 ✅ User Profile (name, phone, address)
-✅ Order History (past bookings)
-✅ Order Status (Pending → Confirmed → Completed)
-✅ Repeat Order (re-book same package)
 ✅ Saved Addresses (home, office)
-✅ Promo Code/Discount application
-✅ Invoice download (PDF)
-5. Communication
-text
-✅ Order status push notifications
-✅ SMS reminders (24h before service)
-✅ "Cleaner on the way" notifications
+✅ Password management
+
+8. Orders
+✅ Order History (past bookings)
+
+9. Order Details
+✅ Basic order status tracking (Pending → Confirmed → Completed)
+✅ Repeat Order (re-book same package)
+✅ Digital checklists (photos before/after), confirm button to close order/disbute if there is an issue.
+✅ Rating/feedback
+
+10. Contact Us
 ✅ Live chat support (WhatsApp Business API)
-✅ Review & Rating system (post-service)
-6. Business Operations
-text
-✅ Admin Dashboard (orders overview)
-✅ Orders database (customer + package details)
-✅ Cleaner assignment (manual for MVP)
-✅ Basic reporting (revenue, bookings)
-✅ Email templates (confirmation, reminder)
-📈 PHASE 3 FEATURES (Month 2 - Scale)
-7. Advanced Booking
-text
-✅ Recurring bookings (weekly/monthly)
-✅ Group bookings (multiple apartments)
-✅ Team cleaning (large properties)
-✅ Emergency/Express service (+50% premium)
-✅ Service area restrictions (Warsaw only)
-✅ Cleaner preferences (female/male, specific team)
-8. Marketing & Promotions
-text
-✅ Special Offers page (20% first clean)
-✅ Referral program (bring friend, get discount)
-✅ Loyalty points (5th clean free)
-✅ Seasonal promotions (Easter, Christmas)
-✅ Abandoned cart recovery emails
-✅ Email marketing (newsletters)
-9. Admin & Operations
-text
-✅ Cleaner mobile app (schedule, navigation)
-✅ Route optimization (Google Maps API)
-✅ Digital checklists (photos before/after)
-✅ Time tracking (check-in/out)
-✅ Materials inventory tracking
-✅ Advanced analytics (revenue per cleaner, area)
-🏢 PHASE 4 FEATURES (Month 3+ - Enterprise)
-10. B2B Features
-text
-✅ Corporate accounts (monthly contracts)
-✅ Multi-property management
-✅ Dedicated account manager
-✅ Bulk discounts (10+ apartments)
-✅ Invoice payment terms (14/30 days)
-11. Compliance & Legal
-text
+✅ Intergration of 'tawk.to' agent support
+✅ Microsoft contact form submission
+
+11. Compliance & Legal (just put dummy data - 2 lined statements on each of these pages)
 ✅ Terms & Conditions page
 ✅ Privacy Policy (GDPR compliant)
 ✅ Regulations page (Polish cleaning laws)
 ✅ Insurance information
 ✅ Cancellation policy
 ✅ Refund policy
-🔧 TECHNICAL/UTILITY FEATURES (All Phases)
+
+Things to add after the main features (later phase
+✅ PDF quote download
+✅ Save package as "favorite" ? (add later, not neccessary
+✅ Order status push notifications
+✅ SMS reminders (24h before service)
+✅ "Cleaner on the way" notifications
+✅ Review & Rating system (post-service)
+✅ Recurring bookings (weekly/monthly)
+✅ Group bookings (multiple apartments)
+✅ Emergency/Express service (+40% premium)
+✅ Service area restrictions (Warsaw only)
+✅ Cleaner preferences (female/male, specific team)
+✅ Abandoned cart recovery emails
+✅ Add more cost on the bill when client requires the keys to be collected from certain location, other than the cleaning location (PLN 3.75/km from the location of cleaning service)
+✅ Route optimization (Google Maps API)
+✅ Time tracking (check-in/out) when cleaning is done
+
+
+
+
 12. Settings & Preferences
 text
 ✅ Language toggle (PL/EN)
