@@ -1,3 +1,7 @@
+Build me a complete, production-ready **Cleaning Service Package Builder Web Application** using **.NET** with **ASP.NET MVC 5** that behaves **exactly like a hybrid mobile app** with PWA capabilities.
+
+## Tech Stack 
+
 🎯 MVP FEATURES (Phase 1 - Launch Ready)
 A. Customer Journey (Application Overview)
 Access the board using the google boards link below:
@@ -25,6 +29,15 @@ https://github.com/markaldo/package-builder
 ✅ Extra rooms (kitchen, balcony, etc.), make sure the user enters sizes
 ✅ Online booking with calendar
 ✅ Guest checkout (no account needed)
+a. Rooms × rate per room (by cleaning type)
+b. Bathrooms × rate per bathroom (by cleaning type)  
+c. Kitchen/corridor: fixed fee by cleaning type if selected
+d. Balcony/garage/basement: fixed fee + ((size-20)×factor) if >20sqm
+e. Microservices: sum selected prices
+f. Windows: qty × price per type, then sum then up
+g. Additional services: selected price
+h. Multiply total × visits count
+i. Apply discount: 2=5%, 3=10%, 4=15%, 5=20%, 6=25%, 7=30%
 
 4. Payment
 ✅ Payment integration (Stripe/Przelewy24) and blik
@@ -35,6 +48,10 @@ https://github.com/markaldo/package-builder
 ✅ Order ID generation
 ✅ Order summary with breakdown
 ✅ WhatsApp/Email quote sharing
+
+*The pages below should be accessible for a slide-in side bar menu that can be toggled*
+*Home button should be available to navigate to dashboard (but should not appear on the dashboard page itself as the options to navigate are already there)*
+*Implement the navigation logically just like other common apps in the world*
 
 6. Offers page
 ✅ Real-time pricing updates
@@ -123,6 +140,9 @@ Things to add after the main features (later phase
 ✅ Rate limiting (API abuse protection)
 ✅ Audit logs (admin actions)
 
+1. Web Push via Firebase Cloud Messaging (FCM)
+2. Skip SignalR entirely
+
 🚀 PRIORITIZED ROADMAP (6 Phases Total)
 PHASE 1: MVP Launch
 ├── ✅ Package Builder + Quote Generator
@@ -143,3 +163,31 @@ PHASE 4: Scale
 ├── ✅ Marketing Features
 ├── ✅ B2B Corporate
 └── ✅ Multi-language Full Support
+
+✅ Installable on home screen (iOS/Android)
+✅ Offline calculator functionality
+✅ Touch-optimized +/- buttons
+✅ Smooth CSS animations
+✅ Push notifications (SignalR)
+✅ Fullscreen PWA mode
+✅ 60fps real-time updates
+✅ Installable on home screen (iOS/Android)
+✅ Offline calculator functionality
+✅ Touch-optimized +/- buttons
+✅ Smooth CSS animations
+✅ Push notifications (SignalR)
+✅ Fullscreen PWA mode
+✅ 60fps real-time updates✅ Zero hardcoded prices (use PricingConstants)
+✅ Defensive null checking everywhere
+✅ Model validation attributes
+✅ Anti-forgery tokens on POST
+✅ HTTPS redirect middleware
+✅ Error logging (NLog/Serilog)
+✅ Responsive breakpoints (mobile-first)
+
+
+✅ IIS 10+ (Windows Server)
+✅ Azure App Service (PWA ready)
+✅ SQL Server LocalDB (development)
+✅ Entity Framework migrations
+
