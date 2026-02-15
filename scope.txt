@@ -13,29 +13,31 @@ Welcome page (Login/Guest) -> Dashboard -> Book a Service -> Payment -> Order Co
 ✅ Continue as Guest
 
 2. Dashboard (Main/Index) page
-✅ Access to al the pages
-✅ Use sample template design of a circular ring big menu like in the picture in git repo link below in samples folder
+✅ Access to all the pages
+✅ Use sample template design of a circular ring big menu like in the picture (design-template) in git repo link below:
 https://github.com/markaldo/cleanup
 
 3. Book a Service/Package Builder
-✅ 
-✅ Package Builder (your calculator - ALREADY BUILT)
-✅ Real-time pricing updates
-✅ Windows selector (+/- buttons)
-✅ Microservices selection
-✅ Extra rooms (kitchen, balcony, etc.)
+✅ Use the concept, architecture, design, values and behaviour from the calculator in the link repo below:
+https://github.com/markaldo/package-builder
+✅ Windows selector (+/- buttons) -> make sure the user has to select sizes like in the above calculator
+✅ Extra rooms (kitchen, balcony, etc.), make sure the user enters sizes
+✅ Online booking with calendar
+
+4. Payment
+✅ Payment integration (Stripe/Przelewy24) and blik
+
+5. Order Confirmation
+✅ Order confirmation (email + push)
+✅ Order ID generation
 ✅ Order summary with breakdown
 ✅ PDF quote download
 ✅ WhatsApp/Email quote sharing
-✅ Mobile-responsive PWA
-2. Booking & Payment
-text
-✅ Online booking with calendar
-✅ Real-time cleaner availability
-✅ Payment integration (Stripe/Przelewy24)
-✅ Order confirmation (email + push)
-✅ Order ID generation
-✅ Basic order status tracking
+
+6. Offers page
+✅ Real-time pricing updates
+✅ Already made packages and offers
+
 3. Basic Customer Management
 text
 ✅ Customer registration/login
