@@ -1,0 +1,194 @@
+🎯 MVP FEATURES (Phase 1 - Launch Ready)
+A. Customer Journey (Application Overview)
+Access the board using the google boards link below:
+https://docs.google.com/drawings/d/1WDoVr_dMnS4phNS5bamw66EnWI6O7TeATBu9lsfo-68/edit?usp=sharing
+Welcome page (Login/Guest) -> Dashboard -> Book a Service -> Payment -> Order Confirmation -> Invoice/Receipt Download 
+                                  |-> Offers, Orders History, Order Details, Privacy & Policy, Regulations, Report Bug, FAQ or Contact Us
+
+1. Welcome page
+✅ Swify
+✅ Motto (swift, sweet, shinny)
+✅ Sign-In
+✅ Sign-Up (don't have an account)
+✅ Continue as Guest
+
+2. Dashboard (Main/Index) page
+✅ Access to al the pages
+✅ Use sample template design of a circular ring big menu like in the picture in git repo link below in samples folder
+https://github.com/markaldo/cleanup
+
+3. Book a Service/Package Builder
+✅ 
+✅ Package Builder (your calculator - ALREADY BUILT)
+✅ Real-time pricing updates
+✅ Windows selector (+/- buttons)
+✅ Microservices selection
+✅ Extra rooms (kitchen, balcony, etc.)
+✅ Order summary with breakdown
+✅ PDF quote download
+✅ WhatsApp/Email quote sharing
+✅ Mobile-responsive PWA
+2. Booking & Payment
+text
+✅ Online booking with calendar
+✅ Real-time cleaner availability
+✅ Payment integration (Stripe/Przelewy24)
+✅ Order confirmation (email + push)
+✅ Order ID generation
+✅ Basic order status tracking
+3. Basic Customer Management
+text
+✅ Customer registration/login
+✅ Guest checkout (no account needed)
+✅ Save package as "favorite"
+✅ Contact form submission
+🚀 PHASE 2 FEATURES (Week 2-3 - Revenue Generation)
+4. Customer Account Features
+text
+✅ User Profile (name, phone, address)
+✅ Order History (past bookings)
+✅ Order Status (Pending → Confirmed → Completed)
+✅ Repeat Order (re-book same package)
+✅ Saved Addresses (home, office)
+✅ Promo Code/Discount application
+✅ Invoice download (PDF)
+5. Communication
+text
+✅ Order status push notifications
+✅ SMS reminders (24h before service)
+✅ "Cleaner on the way" notifications
+✅ Live chat support (WhatsApp Business API)
+✅ Review & Rating system (post-service)
+6. Business Operations
+text
+✅ Admin Dashboard (orders overview)
+✅ Orders database (customer + package details)
+✅ Cleaner assignment (manual for MVP)
+✅ Basic reporting (revenue, bookings)
+✅ Email templates (confirmation, reminder)
+📈 PHASE 3 FEATURES (Month 2 - Scale)
+7. Advanced Booking
+text
+✅ Recurring bookings (weekly/monthly)
+✅ Group bookings (multiple apartments)
+✅ Team cleaning (large properties)
+✅ Emergency/Express service (+50% premium)
+✅ Service area restrictions (Warsaw only)
+✅ Cleaner preferences (female/male, specific team)
+8. Marketing & Promotions
+text
+✅ Special Offers page (20% first clean)
+✅ Referral program (bring friend, get discount)
+✅ Loyalty points (5th clean free)
+✅ Seasonal promotions (Easter, Christmas)
+✅ Abandoned cart recovery emails
+✅ Email marketing (newsletters)
+9. Admin & Operations
+text
+✅ Cleaner mobile app (schedule, navigation)
+✅ Route optimization (Google Maps API)
+✅ Digital checklists (photos before/after)
+✅ Time tracking (check-in/out)
+✅ Materials inventory tracking
+✅ Advanced analytics (revenue per cleaner, area)
+🏢 PHASE 4 FEATURES (Month 3+ - Enterprise)
+10. B2B Features
+text
+✅ Corporate accounts (monthly contracts)
+✅ Multi-property management
+✅ Dedicated account manager
+✅ Bulk discounts (10+ apartments)
+✅ Invoice payment terms (14/30 days)
+11. Compliance & Legal
+text
+✅ Terms & Conditions page
+✅ Privacy Policy (GDPR compliant)
+✅ Regulations page (Polish cleaning laws)
+✅ Insurance information
+✅ Cancellation policy
+✅ Refund policy
+🔧 TECHNICAL/UTILITY FEATURES (All Phases)
+12. Settings & Preferences
+text
+✅ Language toggle (PL/EN)
+✅ Currency display (PLN/€)
+✅ Notification preferences (email/push/SMS)
+✅ Dark/Light mode
+✅ Save preferences (localStorage)
+✅ Profile photo/avatar
+13. Support & Help
+text
+✅ FAQ/Questions page
+✅ Report Bug form
+✅ Contact Us page (phone, email, WhatsApp)
+✅ Live chat widget (Tawk.to free)
+✅ Service areas map
+✅ Pricing transparency page
+14. Legal Pages (Required in Poland)
+text
+✅ Regulamin (Terms of Service)
+✅ Polityka Prywatności (Privacy Policy)
+✅ RODO/GDPR compliance page
+✅ Company information (NIP, REGON)
+✅ Contact details (address, hours)
+📱 MOBILE/PWA ENHANCEMENTS
+text
+✅ Push notifications (order status)
+✅ Offline calculator (Service Worker)
+✅ Home screen installable
+✅ Touch-optimized UI (60fps)
+✅ Voice search (service selection)
+✅ Biometric login (fingerprint)
+📊 BUSINESS INTELLIGENCE
+text
+✅ Revenue dashboard (daily/weekly/monthly)
+✅ Top services report
+✅ Customer retention analytics
+✅ Cleaner performance metrics
+✅ Cancellation reasons tracking
+✅ Peak hours analysis
+🎨 UI/UX FEATURES
+text
+✅ Loading states (skeleton screens)
+✅ Error handling (friendly messages)
+✅ Success animations (confetti on booking)
+✅ Progress indicator (multi-step form)
+✅ Auto-save form progress
+✅ One-click WhatsApp booking
+🛡️ SECURITY & COMPLIANCE
+text
+✅ SSL/HTTPS everywhere
+✅ GDPR consent checkboxes
+✅ Data encryption (customer info)
+✅ Payment PCI compliance
+✅ Rate limiting (API abuse protection)
+✅ Audit logs (admin actions)
+🚀 PRIORITIZED ROADMAP (6 Weeks Total)
+text
+WEEK 1: MVP Launch
+├── ✅ Package Builder + Quote Generator
+├── ✅ Basic Booking + Payment
+└── ✅ PWA + Mobile Responsive
+
+WEEK 2: Customer Features
+├── ✅ Profile + Order History
+├── ✅ Notifications + Reviews
+└── ✅ Admin Dashboard (basic)
+
+WEEK 3: Operations
+├── ✅ Recurring Bookings
+├── ✅ Cleaner Assignment
+└── ✅ Advanced Reporting
+
+MONTH 2: Scale
+├── ✅ Marketing Features
+├── ✅ B2B Corporate
+└── ✅ Multi-language Full Support
+📋 IMMEDIATE NEXT STEPS (This Week)
+text
+1. ✅ Add Order History page
+2. ✅ Profile/Settings page  
+3. ✅ FAQ + Contact Us pages
+4. ✅ Terms/Privacy pages (Polish legal req)
+5. ✅ Push notifications for order status
+6. ✅ Admin dashboard (orders table)
